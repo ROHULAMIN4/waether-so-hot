@@ -1,0 +1,25 @@
+body {
+  background-image: url("image/pexels-bri-schneiter-346529.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#emptyCity {
+  color: rgb(255, 85, 17);
+}
+#emptyTemp {
+  color: rgb(255, 85, 17);
+}
+#celcious {
+  color: rgb(175, 164, 12);
+}
+.icon {
+  color: white;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+}
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

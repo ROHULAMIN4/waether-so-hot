@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d335118a63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+       <title>Weather City</title>
+</head>
+<body>
+   
+    <div class="input-group mb-3 w-50 mx-auto mt-5 ">
+        <input id="inputText" type="text" class="form-control" placeholder="Enter a location for Weather" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="weatherinput()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+      </div>
+      <h1 class="text-center text-warning">Weather is so hot</h1>
+      <section class="icon-section">
+          <!-- rain  -->
+          <div id="rain" class="icon">
+            <i class=" fas fa-cloud-showers-heavy"></i>
+          </div>
+          <div id="cloud" class="icon">
+            <!-- cloud -->
+               <i class="fas fa-cloud"></i> 
+          </div>
+          <div id="normal" class="icon">
+            <!-- normal -->
+            <i class="fas fa-smog"></i> 
+          </div>
+          <div id="moon" class="icon">
+            <!-- moon --> 
+                  <i class="fas fa-moon"></i>
+          </div>
+          <div id="strom" class="icon">
+            <!-- strom -->
+             <i class="fas fa-poo-storm"></i> 
+          </div>
+          <div id="snow" class="icon">
+              <!--  snow -->
+           <i class="far fa-snowflake"></i>
+          </div>
+      
+          <div id="clear" class="icon">
+            <!-- clear -->
+            <i class="fas fa-sun"></i>
+          </div>
+      
+  
+    
+ 
+    
+ 
+     
+
+      </section>
+      <section>
+         
+          <h1 class="text-center" >City:<span id="emptyCity">00</span></h1>
+          <h1 class="text-center"  id="temp">Temp:<span id="emptyTemp"></span><span id="celcious">&#8451;</span></h1>
+      </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
